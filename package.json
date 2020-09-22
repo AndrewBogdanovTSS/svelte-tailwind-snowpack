@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "snowpack dev",
+    "dev": "snowpack dev",
     "build": "snowpack build",
     "test": "jest"
   },
@@ -18,8 +18,10 @@
     "lint-staged": "^10.2.10",
     "postcss": "^7.0.32",
     "postcss-cli": "^7.1.1",
+    "postcss-import": "^12.0.1",
     "postcss-load-config": "^2.1.0",
-    "prettier": "2.0.5",
+    "postcss-nested": "^4.2.3",
+    "prettier": "^2.1.2",
     "snowpack": "^2.5.0",
     "svelte-preprocess": "^3.9.7"
   }
